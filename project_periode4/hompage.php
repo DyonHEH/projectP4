@@ -32,12 +32,15 @@
             <h5 class="w3-padding-32">Vul hier uw provincie, gemeente of stad in en kom te weten hoeveel coronagevallen er bij u in de omgeving zijn.</h5>
 
 
-            <input type="text" name="plaats"><br>
-                <div id="radiobutton">
-                    <input type="radio" name="keuze" value="1"> provincie
-                    <input type="radio" name="keuze" value="2"> gemeente
-                    <input type="radio" name="keuze" value="3"> stad
-                </div>
+            <form action="Aantalbesmetting.php" method="post">
+                <input type="text" name="plaats"><br>
+                    <div id="radiobutton">
+                        <input type="radio" name="keuze" value="1"> provincie
+                        <input type="radio" name="keuze" value="2"> gemeente
+                        <input type="radio" name="keuze" value="3"> stad
+                    </div>
+                    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> vragenlijst</button>
+            </form>
         </div>
     </div>
 </div>
