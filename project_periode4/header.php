@@ -1,3 +1,7 @@
+<?php
+    require 'DatabaseConnectie.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <title>W3.CSS Template</title>
