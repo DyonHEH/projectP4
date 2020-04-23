@@ -39,7 +39,7 @@
                         <input type="radio" name="keuze" value="2"> gemeente
                         <input type="radio" name="keuze" value="3"> stad
                     </div>
-                    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> vragenlijst</button>
+                    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> bevestig </button>
             </form>
         </div>
     </div>
