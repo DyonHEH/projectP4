@@ -1,9 +1,10 @@
 <?php
 require "Header.php";
-$plaats = $_POST["plaats"];
+
 $p = $_POST["keuze"];
 if($p == 1)
 {
+    $plaats = $_POST["plaats"];
 
 
 $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='true')  ";
@@ -24,7 +25,7 @@ $conn->close();
         <div class="w3-twothird">
 
 
-                <h4 class="w3-padding-32">er is <?php echo $aantal ?>  besmetting in de plaats <?php echo $plaats ?></h4>
+                <h4 class="w3-padding-32">er is <?php echo $aantal ;?>  besmetting in de plaats <?php echo $plaats; ?></h4>
 
 
 
@@ -58,14 +59,15 @@ $conn->close();
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">Blijf binnen</h1>
 </div>
-<?php}
+
+<?php
+}
 elseif ($p ==2)
 {
-
-    $sql = "select  *  FROM gegevens WHERE (gemeente  = '" .$plaats . "' AND  besmet='true')  ";
+    $plaats = $_POST["plaats"];
+    $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='true')  ";
     $result_sql = mysqli_query($conn, $sql);
     $conn->query($sql );
-
     $aantal = 0;
     while ($s = mysqli_fetch_assoc($result_sql)) {
         $aantal++;
@@ -117,6 +119,7 @@ elseif ($p ==2)
 }
 elseif ($p == 3)
 {
+    $plaats = $_POST["plaats"];
 
     $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='true')  ";
     $result_sql = mysqli_query($conn, $sql);
@@ -175,3 +178,4 @@ elseif ($p == 3)
     </div>
     <?php
 }
+
