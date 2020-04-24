@@ -35,9 +35,9 @@
             <form action="Aantalbesmetting.php" method="post">
                 <input type="text" name="plaats"><br>
                     <div id="radiobutton">
-                        <input type="radio" name="keuze" value="1"> provincie
+                        <input type="radio" name="keuze" value="3"> provincie
                         <input type="radio" name="keuze" value="2"> gemeente
-                        <input type="radio" name="keuze" value="3"> stad
+                        <input type="radio" name="keuze" value="1"> stad
                     </div>
                     <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> bevestig </button>
             </form>
