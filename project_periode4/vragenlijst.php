@@ -15,6 +15,10 @@ require "header.php";
     heb je moeite met ademen?                   <input type="checkbox" value="2" name="moeiteAdemen"><br>
     heb je konstante pijn op je borst?          <input type="checkbox" value="2" name="borstpijn"><br>
     heb je blauwachtige lippen of gezicht?      <input type="checkbox" value="2" name="lippen"><br>
+    <br>
+    woonplaats      <input type="text" name="plaats"><br>
+    gemeente        <input type="text" name="gemeente"><br>
+    provincie       <input type="text" name="provincie"><br>
     <input type="submit">
 </form>
 
