@@ -22,8 +22,7 @@ require "header.php";
     <input type="submit">
 </form>
 
-</body>
-</html>
+
 
 <?php
 require "footer.php";
