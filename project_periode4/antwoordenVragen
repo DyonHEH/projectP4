@@ -1,0 +1,103 @@
+<?php
+require "header.php";
+
+$aantal = 0;
+$directgevaar = 0;
+
+if(isset($_POST['hoesten']) && $_POST['hoesten'] == '1')
+{
+    $aantal++;
+}
+
+if(isset($_POST['koorts']) && $_POST['koorts'] == '1')
+{
+    $aantal++;
+}
+
+
+if(isset($_POST['spier']) && $_POST['spier'] == '1')
+{
+    $aantal++;
+}
+
+if(isset($_POST['hoofdpijn']) && $_POST['hoofdpijn'] == '1')
+{
+    $aantal++;
+}
+
+if(isset($_POST['keelpijn']) && $_POST['keelpijn'] == '1')
+{
+    $aantal++;
+}
+
+if(isset($_POST['rillingen']) && $_POST['rillingen'] == '1')
+{
+    $aantal++;
+}
+
+if(isset($_POST['smaakGeur']) && $_POST['smaakGeur'] == '1')
+{
+    $aantal++;
+    $directgevaar++;
+}
+
+if(isset($_POST['moeiteAdemen']) && $_POST['moeiteAdemen'] == '1')
+{
+    $aantal++;
+    $directgevaar++;
+}
+
+if(isset($_POST['borstpijn']) && $_POST['borstpijn'] == '2')
+{
+    $aantal++;
+    $directgevaar++;
+}
+
+if(isset($_POST['lippen']) && $_POST['lippen'] == '2')
+{
+    $aantal++;
+    $directgevaar++;
+}
+
+
+if($aantal == 1)
+{
+    echo "bel een doktor op";
+}
+
+if($aantal == 2)
+{
+    echo "bel een doktor op";
+}
+
+if($aantal == 3)
+{
+    echo "bel een doktor op";
+}
+
+if($aantal == 4)
+{
+    echo "bel een doktor op";
+}
+
+if($aantal == 5)
+{
+    echo "bel een doktor op";
+}
+
+if($aantal == 6)
+{
+    echo "bel een doktor op";
+}
+
+if($aantal == 7)
+{
+    echo "bel een doktor op";
+}
+
+if($directgevaar >= 1)
+{
+    echo"bel zo snel mogelijk een doctor";
+}
+
+require "footer.php";
