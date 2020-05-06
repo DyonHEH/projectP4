@@ -65,7 +65,7 @@ if($aantal <= 3)
     echo "het is een mogelijkheid dat je het hebt maar het kan ook maar een griepje zijn";
 }
 
-if($aantal >= 4 &&)
+if($aantal >= 4)
 {
     echo "bel een doktor op er is een kans dat je het coronavirus hebt";
     
