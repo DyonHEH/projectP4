@@ -33,13 +33,15 @@
 
 
             <form action="Aantalbesmetting.php" method="post">
-                <input type="text" name="plaats"><br>
+                <input type="text" name="plaats" required><br>plaats
+
                     <div id="radiobutton">
                         <input type="radio" name="keuze" value="3"> provincie
                         <input type="radio" name="keuze" value="2"> gemeente
-                        <input type="radio" name="keuze" value="1"> stad
+                        <input type="radio" name="keuze" value="1"> stad <br>
+                        <input type="number" name="leeftijd"  > leeftijd waarin je zoekt <br>
+                        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> zoek</button>
                     </div>
-                    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> vragenlijst</button>
             </form>
         </div>
     </div>
