@@ -2,7 +2,7 @@
 require "header.php";
 ?>
 
-<body>
+
 <form action="antwoordenVragen.php" class="vragenlijst" method="post">
     moet je vaak hoesten?                       <input type="checkbox" value="1" name="hoesten"> <br>
     heb je koorts?                              <input type="checkbox" value="1" name="koorts"> <br>
@@ -22,7 +22,7 @@ require "header.php";
     leeftijd                                    <input type="number" name="leeftijd" required><br>
     <input type="submit">
 </form>
-</body>
+
 
 
 <?php
