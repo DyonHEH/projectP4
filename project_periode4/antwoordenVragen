@@ -60,44 +60,20 @@ if(isset($_POST['lippen']) && $_POST['lippen'] == '2')
 }
 
 
-if($aantal == 1)
+if($aantal <= 3)
 {
-    echo "bel een doktor op";
+    echo "het is een mogelijkheid dat je het hebt maar het kan ook maar een griepje zijn";
 }
 
-if($aantal == 2)
+if($aantal >= 4 &&)
 {
-    echo "bel een doktor op";
-}
-
-if($aantal == 3)
-{
-    echo "bel een doktor op";
-}
-
-if($aantal == 4)
-{
-    echo "bel een doktor op";
-}
-
-if($aantal == 5)
-{
-    echo "bel een doktor op";
-}
-
-if($aantal == 6)
-{
-    echo "bel een doktor op";
-}
-
-if($aantal == 7)
-{
-    echo "bel een doktor op";
+    echo "bel een doktor op er is een kans dat je het coronavirus hebt";
+    
 }
 
 if($directgevaar >= 1)
 {
-    echo"bel zo snel mogelijk een doctor";
+    echo"bel zo snel mogelijk een doctor er is een hele grote kans dat je het coronavirus hebt";
 }
 
 require "footer.php";
