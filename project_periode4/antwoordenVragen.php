@@ -3,6 +3,11 @@ require "header.php";
 $aantal = 0;
 $directgevaar = 0;
 $besmet = false;
+$andereZiekte = false;
+if(isset($_POST['andereZiekte']))
+{
+    $andereZiekte = true;
+}
 
 if(isset($_POST['hoesten']) && $_POST['hoesten'] == '1')
 {
@@ -77,7 +82,6 @@ if($directgevaar >= 1)
     $besmet = true;
 }
 
-$andereZiekte = $_POST['andereZiekte'];
 $plaats = $_POST['plaats'];
 $gemeente = $_POST['gemeente'];
 $provincie = $_POST['provincie'];
