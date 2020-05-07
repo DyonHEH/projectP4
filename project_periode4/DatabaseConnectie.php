@@ -1,5 +1,5 @@
 <?php
-/*
+/* oude datatabase connectie
 define("DB_SERVER", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "");
@@ -13,7 +13,7 @@ if($conn->connect_error){
 }
 */
 
-define("DB_SERVER", "localhost");
+define("DB_SERVER", "185.87.187.247"); //test
 define("DB_USER", "nbolt");
 define("DB_PASS", "equipodo123");
 define("DB_NAME", "nbolt_equipodo");
