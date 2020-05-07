@@ -1,6 +1,5 @@
 <?php
 require "header.php";
-//
 $aantal = 0;
 $directgevaar = 0;
 $besmet = false;

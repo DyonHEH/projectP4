@@ -1,6 +1,5 @@
 <?php
     require 'header.php';
-    //test
 ?>
 
 <!-- First Grid -->
