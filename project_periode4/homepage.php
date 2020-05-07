@@ -10,7 +10,7 @@
             <h1>Coronavirus</h1>
             <h5 class="w3-padding-32">Het Coronavirus oftewel COVID-19 is een erg besmettelijke ziekte die met name bij personen met een verminderde afweer, zoals ouderen en chronisch zieken erg gevaarlijk kan zijn. De belangrijkste symptomen van het virus zijn koorts, hoesten en kortademigheid, de ziekte kan uitlopen op een ernstige longontsteking met soms dodelijke afloop.</h5>
 
-            <p class="w3-text-grey">De ziekte dook eind 2019 op in Wuhan, hoofdstad van de Chinese provincie Hubei, en verspreidde zich vervolgens in drie maanden naar andere delen van de wereld. Vanaf 11 maart 2020 is er officieel sprake van een wereldwijde pandemie.
+            <p class="w3-text-grey">De ziekte dook eind 2019 op in Wuhan, hoofdstad van de Chinese provincie Hubei, en verspreidde zich vervolgens in drie maanden naar andere delen van de wereld. Vanaf 11 maart 2020 is er             officieel sprake van een wereldwijde pandemie.
                 Wij weten in Nederland niet precies hoeveel mensen het Coronavirus hebben gehad en waar het Coronavirus zich op dit moment het meest voordoet. Dit schept veel verwarring en onwetendheid, en ontstaan er gevaarlijke situaties waarbij er grote kans is om besmetting voort te zetten.
                 Om de veiligheid van de Nederlanders te waarborgen zoekt de Nederlandse overheid nu naar een applicatie of website om bij te houden wie deze ziekte al wel heeft gehad en wie niet.<br><br>
 
