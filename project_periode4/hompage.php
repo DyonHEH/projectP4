@@ -1,5 +1,5 @@
 <?php
-    // test2
+    // test
     require 'header.php';
 ?>
 
