@@ -1,7 +1,7 @@
-
 <?php
+require "header.php";
+
 // Test
-require "Header.php";
 
 $p = $_POST["keuze"];
 if($p == 1)
@@ -11,7 +11,7 @@ if($p == 1)
     {
         $leeftijd = $_POST["leeftijd"];
 
-        $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='true' AND Leeftijd='" . $leeftijd . "')  ";
+        $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='1' AND Leeftijd='" . $leeftijd . "')  ";
         $result_sql = mysqli_query($conn, $sql);
         $conn->query($sql);
 
@@ -68,7 +68,7 @@ if($p == 1)
         <?php
     }else
         {
-            $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='true' )  ";
+            $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='1' )  ";
             $result_sql = mysqli_query($conn, $sql);
             $conn->query($sql);
 
@@ -86,7 +86,7 @@ if($p == 1)
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er is <?php echo $aantal ;?>  besmetting in de plaats <?php echo $plaats; ?></h4>
+                        <h4 class="w3-padding-32">er is <?php echo $aantal;?>  besmetting in de plaats <?php echo $plaats;?></h4>
 
 
 
@@ -133,7 +133,7 @@ if ($p ==2) {
     if (isset($_POST['leeftijd']) && $_POST['leeftijd'] > 0) {
         $leeftijd = $_POST["leeftijd"];
 
-        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='true' AND Leeftijd='" . $leeftijd . "')  ";
+        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='1' AND Leeftijd='" . $leeftijd . "')  ";
         $result_sql = mysqli_query($conn, $sql);
         $conn->query($sql);
         $aantal = 0;
@@ -148,9 +148,9 @@ if ($p ==2) {
                 <div class="w3-twothird">
 
 
-                    <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                        gemeente <?php echo $plaats ?>
-                        waarbij de leeftijd <?php echo $leeftijd ?> is.</h4>
+                    <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                        gemeente <?php echo $plaats;?>
+                        waarbij de leeftijd <?php echo $leeftijd;?> is.</h4>
 
 
                 </div>
@@ -190,7 +190,7 @@ if ($p ==2) {
         </div>
         <?php
     } else {
-        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='true')  ";
+        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='1')  ";
         $result_sql = mysqli_query($conn, $sql);
         $conn->query($sql);
         $aantal = 0;
@@ -205,8 +205,8 @@ if ($p ==2) {
                 <div class="w3-twothird">
 
 
-                    <h4 class="w3-padding-32">er is <?php echo $aantal; ?> besmetting in de
-                        gemeente <?php echo $plaats; ?></h4>
+                    <h4 class="w3-padding-32">er is <?php echo $aantal;?> besmetting in de
+                        gemeente <?php echo $plaats;?></h4>
 
 
                 </div>
@@ -253,7 +253,7 @@ if ($p ==2) {
 
         if (isset($_POST['leeftijd']) && $_POST['leeftijd'] > 0) {
             $leeftijd = $_POST["leeftijd"];
-            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='true' AND Leeftijd='" . $leeftijd . "')  ";
+            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='1' AND Leeftijd='" . $leeftijd . "')  ";
             $result_sql = mysqli_query($conn, $sql);
             $conn->query($sql);
 
@@ -272,9 +272,9 @@ if ($p ==2) {
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                            provincie <?php echo $plaats ?>
-                            waarbij de leeftijd <?php echo $leeftijd ?> is.</h4>
+                        <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                            provincie <?php echo $plaats;?>
+                            waarbij de leeftijd <?php echo $leeftijd;?> is.</h4>
 
 
                     </div>
@@ -317,7 +317,7 @@ if ($p ==2) {
             </div>
             <?php
         } else {
-            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='true')  ";
+            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='1')  ";
             $result_sql = mysqli_query($conn, $sql);
             $conn->query($sql);
 
@@ -336,8 +336,8 @@ if ($p ==2) {
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                            provincie <?php echo $plaats ?></h4>
+                        <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                            provincie <?php echo $plaats;?></h4>
 
 
                     </div>
