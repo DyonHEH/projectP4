@@ -1,6 +1,6 @@
 
 <?php
-require "Header.php";
+require "header.php";
 
 $p = $_POST["keuze"];
 if($p == 1)
