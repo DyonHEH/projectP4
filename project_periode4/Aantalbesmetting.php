@@ -1,6 +1,8 @@
 <?php
 require "header.php";
 
+// Test
+
 $p = $_POST["keuze"];
 if($p == 1)
 {
