@@ -64,8 +64,12 @@ if(isset($_POST['lippen']) && $_POST['lippen'] == '2')
     $directgevaar++;
 }
 
+if($aantal == 0)
+{
+    echo "je bent kern gezond"
+}
 
-if($aantal <= 4)
+if($aantal >= 1 && $aantal <= 4)
 {
     echo "het is een mogelijkheid dat je het hebt maar het kan ook maar een griepje zijn";
 }
