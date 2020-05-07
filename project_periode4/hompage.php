@@ -34,7 +34,7 @@
 
 
             <form action="Aantalbesmetting.php" method="post">
-                <input type="text" name="plaats" required><br>plaats
+                <input type="text" name="plaats" required>plaats<br>
 
                     <div id="radiobutton">
                         <input type="radio" name="keuze" value="3"> provincie
