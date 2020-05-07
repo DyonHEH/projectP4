@@ -66,7 +66,7 @@ if(isset($_POST['lippen']) && $_POST['lippen'] == '2')
 
 if($aantal == 0)
 {
-    echo "je bent kern gezond"
+    echo "je bent kern gezond";
 }
 
 if($aantal >= 1 && $aantal <= 4)
