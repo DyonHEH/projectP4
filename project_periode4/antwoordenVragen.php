@@ -74,7 +74,7 @@ if($aantal >= 5)
 
 if($directgevaar >= 1)
 {
-    echo"bel zo snel mogelijk een doctor er is een hele grote kans dat je het coronavirus hebt";
+    echo" bel zo snel mogelijk een doctor er is een hele grote kans dat je het coronavirus hebt";
     $besmet = true;
 }
 
