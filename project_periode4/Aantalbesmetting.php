@@ -1,6 +1,5 @@
 
 <?php
-// Test
 require "Header.php";
 
 $p = $_POST["keuze"];
@@ -11,7 +10,7 @@ if($p == 1)
     {
         $leeftijd = $_POST["leeftijd"];
 
-        $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='true' AND Leeftijd='" . $leeftijd . "')  ";
+        $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='1' AND Leeftijd='" . $leeftijd . "')  ";
         $result_sql = mysqli_query($conn, $sql);
         $conn->query($sql);
 
@@ -68,7 +67,7 @@ if($p == 1)
         <?php
     }else
         {
-            $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='true' )  ";
+            $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='1' )  ";
             $result_sql = mysqli_query($conn, $sql);
             $conn->query($sql);
 
@@ -133,7 +132,7 @@ if ($p ==2) {
     if (isset($_POST['leeftijd']) && $_POST['leeftijd'] > 0) {
         $leeftijd = $_POST["leeftijd"];
 
-        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='true' AND Leeftijd='" . $leeftijd . "')  ";
+        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='1' AND Leeftijd='" . $leeftijd . "')  ";
         $result_sql = mysqli_query($conn, $sql);
         $conn->query($sql);
         $aantal = 0;
@@ -190,7 +189,7 @@ if ($p ==2) {
         </div>
         <?php
     } else {
-        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='true')  ";
+        $sql = "select  *  FROM gegevens WHERE (gemeente  = '" . $plaats . "' AND  besmet='1')  ";
         $result_sql = mysqli_query($conn, $sql);
         $conn->query($sql);
         $aantal = 0;
@@ -253,7 +252,7 @@ if ($p ==2) {
 
         if (isset($_POST['leeftijd']) && $_POST['leeftijd'] > 0) {
             $leeftijd = $_POST["leeftijd"];
-            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='true' AND Leeftijd='" . $leeftijd . "')  ";
+            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='1' AND Leeftijd='" . $leeftijd . "')  ";
             $result_sql = mysqli_query($conn, $sql);
             $conn->query($sql);
 
@@ -317,7 +316,7 @@ if ($p ==2) {
             </div>
             <?php
         } else {
-            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='true')  ";
+            $sql = "select  *  FROM gegevens WHERE (provincie  = '" . $plaats . "' AND  besmet='1')  ";
             $result_sql = mysqli_query($conn, $sql);
             $conn->query($sql);
 
