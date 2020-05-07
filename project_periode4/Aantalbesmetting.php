@@ -30,7 +30,7 @@ if($p == 1)
 
 
 
-                    <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
+                     <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
                         plaats <?php echo $plaats ?>
                         waarbij de leeftijd <?php echo $leeftijd ?> is.</h4>
 
