@@ -1,6 +1,7 @@
-
 <?php
 require "header.php";
+
+// Test
 
 $p = $_POST["keuze"];
 if($p == 1)
@@ -85,7 +86,7 @@ if($p == 1)
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er is <?php echo $aantal ;?>  besmetting in de plaats <?php echo $plaats; ?></h4>
+                        <h4 class="w3-padding-32">er is <?php echo $aantal;?>  besmetting in de plaats <?php echo $plaats;?></h4>
 
 
 
@@ -147,9 +148,9 @@ if ($p ==2) {
                 <div class="w3-twothird">
 
 
-                    <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                        gemeente <?php echo $plaats ?>
-                        waarbij de leeftijd <?php echo $leeftijd ?> is.</h4>
+                    <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                        gemeente <?php echo $plaats;?>
+                        waarbij de leeftijd <?php echo $leeftijd;?> is.</h4>
 
 
                 </div>
@@ -204,8 +205,8 @@ if ($p ==2) {
                 <div class="w3-twothird">
 
 
-                    <h4 class="w3-padding-32">er is <?php echo $aantal; ?> besmetting in de
-                        gemeente <?php echo $plaats; ?></h4>
+                    <h4 class="w3-padding-32">er is <?php echo $aantal;?> besmetting in de
+                        gemeente <?php echo $plaats;?></h4>
 
 
                 </div>
@@ -271,9 +272,9 @@ if ($p ==2) {
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                            provincie <?php echo $plaats ?>
-                            waarbij de leeftijd <?php echo $leeftijd ?> is.</h4>
+                        <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                            provincie <?php echo $plaats;?>
+                            waarbij de leeftijd <?php echo $leeftijd;?> is.</h4>
 
 
                     </div>
@@ -335,8 +336,8 @@ if ($p ==2) {
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                            provincie <?php echo $plaats ?></h4>
+                        <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                            provincie <?php echo $plaats;?></h4>
 
 
                     </div>
