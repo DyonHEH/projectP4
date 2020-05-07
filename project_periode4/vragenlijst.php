@@ -1,4 +1,5 @@
 <?php
+//voegt header toe
 require "header.php";
 ?>
 
