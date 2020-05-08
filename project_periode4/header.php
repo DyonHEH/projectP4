@@ -30,8 +30,8 @@
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-        <a href="homepage.php" class="w3-bar-item w3-button w3-padding-large">homepage</a>
-        <a href="vragenlijst.php" class="w3-bar-item w3-button w3-padding-large">vragenlijst</a>
-        <a href="gamepage.php" class="w3-bar-item w3-button w3-padding-large">gamepage</a>
+        <a href="homepage.php" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="vragenlijst.php" class="w3-bar-item w3-button w3-padding-large">Vragenlijst</a>
+        <a href="gamepage.php" class="w3-bar-item w3-button w3-padding-large">Gamepage</a>
     </div>
 </div>
