@@ -4,6 +4,7 @@ $aantal = 0;
 $directgevaar = 0;
 $besmet = false;
 $andereZiekte = false;
+
 if(isset($_POST['andereZiekte']))
 {
     $andereZiekte = true;
@@ -18,7 +19,6 @@ if(isset($_POST['koorts']) && $_POST['koorts'] == '1')
 {
     $aantal++;
 }
-
 
 if(isset($_POST['spier']) && $_POST['spier'] == '1')
 {
@@ -66,23 +66,23 @@ if(isset($_POST['lippen']) && $_POST['lippen'] == '2')
 
 if($aantal == 0)
 {
-    echo "je bent kern gezond";
+    echo "Je bent kern gezond.";
 }
 
 if($aantal >= 1 && $aantal <= 4)
 {
-    echo "het is een mogelijkheid dat je het hebt maar het kan ook maar een griepje zijn";
+    echo "Er is een mogelijkheid dat je het hebt, maar het kan ook een griepje zijn.";
 }
 
 if($aantal >= 5)
 {
-    echo "bel een doktor op er is een kans dat je het coronavirus hebt";
+    echo "Bel een dokter, er is een kans dat je het coronavirus hebt.";
     $besmet = true;
 }
 
 if($directgevaar >= 1)
 {
-    echo" bel zo snel mogelijk een doctor er is een hele grote kans dat je het coronavirus hebt";
+    echo "Bel zo snel mogelijk een dokter er is een hele grote kans dat je het coronavirus hebt.";
     $besmet = true;
 }
 
@@ -93,4 +93,5 @@ $leeftijd = $_POST['leeftijd'];
 
 $sql = "INSERT INTO gegevens (plaats, gemeente, provincie, leeftijd, andereZiekte, besmet) VALUES ('$plaats', '$gemeente', '$provincie', '$leeftijd', '$andereZiekte', '$besmet')";
 $conn->query($sql);
+
 require "footer.php";
