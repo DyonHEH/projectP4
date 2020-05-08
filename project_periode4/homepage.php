@@ -28,19 +28,19 @@
 
 
         <div class="w3-twothird">
-            <h1>Aantal coronagevallen in uw regio</h1>
-            <h5 class="w3-padding-32">Vul hier uw provincie, gemeente of stad in en kom te weten hoeveel coronagevallen er bij u in de omgeving zijn.</h5>
+            <h1>Aantal corona besmettingen in uw regio</h1>
+            <h5 class="w3-padding-32">Vul hier uw provincie, gemeente of stad in en kom te weten hoeveel besmettingen er bij u in de omgeving zijn.</h5>
 
 
             <form action="Aantalbesmetting.php" method="post">
-                <input type="text" name="plaats" required> plaats<br>
+                <input type="text" name="plaats" required>Plaats<br>
 
                     <div id="radiobutton">
-                        <input type="radio" name="keuze" value="3"> provincie
-                        <input type="radio" name="keuze" value="2"> gemeente
-                        <input type="radio" name="keuze" value="1"> stad <br>
-                        <input type="number" name="leeftijd"  > leeftijd waarin je zoekt <br>
-                        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> zoek</button>
+                        <input type="radio" name="keuze" value="3">Provincie
+                        <input type="radio" name="keuze" value="2">Gemeente
+                        <input type="radio" name="keuze" value="1">Stad <br>
+                        <input type="number" name="leeftijd"  >Leeftijd waarin je zoekt <br>
+                        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Zoek</button>
                     </div>
             </form>
         </div>
