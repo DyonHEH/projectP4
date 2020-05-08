@@ -1,9 +1,13 @@
 <?php
 require "header.php";
-//
 $aantal = 0;
 $directgevaar = 0;
 $besmet = false;
+$andereZiekte = false;
+if(isset($_POST['andereZiekte']))
+{
+    $andereZiekte = true;
+}
 
 if(isset($_POST['hoesten']) && $_POST['hoesten'] == '1')
 {
@@ -60,8 +64,12 @@ if(isset($_POST['lippen']) && $_POST['lippen'] == '2')
     $directgevaar++;
 }
 
+if($aantal == 0)
+{
+    echo "je bent kern gezond";
+}
 
-if($aantal <= 4)
+if($aantal >= 1 && $aantal <= 4)
 {
     echo "het is een mogelijkheid dat je het hebt maar het kan ook maar een griepje zijn";
 }
@@ -78,7 +86,6 @@ if($directgevaar >= 1)
     $besmet = true;
 }
 
-$andereZiekte = $_POST['andereZiekte'];
 $plaats = $_POST['plaats'];
 $gemeente = $_POST['gemeente'];
 $provincie = $_POST['provincie'];
