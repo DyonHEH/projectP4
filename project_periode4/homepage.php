@@ -1,7 +1,11 @@
 <?php
     require 'header.php';
-    //test
 ?>
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+    <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+    <button  class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="vragenlijst.php">Begin met vragenlijst</a></button>
+</header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
@@ -10,7 +14,7 @@
             <h1>Coronavirus</h1>
             <h5 class="w3-padding-32">Het Coronavirus oftewel COVID-19 is een erg besmettelijke ziekte die met name bij personen met een verminderde afweer, zoals ouderen en chronisch zieken erg gevaarlijk kan zijn. De belangrijkste symptomen van het virus zijn koorts, hoesten en kortademigheid, de ziekte kan uitlopen op een ernstige longontsteking met soms dodelijke afloop.</h5>
 
-            <p class="w3-text-grey">De ziekte dook eind 2019 op in Wuhan, hoofdstad van de Chinese provincie Hubei, en verspreidde zich vervolgens in drie maanden naar andere delen van de wereld. Vanaf 11 maart 2020 is er officieel sprake van een wereldwijde pandemie.
+            <p class="w3-text-grey">De ziekte dook eind 2019 op in Wuhan, hoofdstad van de Chinese provincie Hubei, en verspreidde zich vervolgens in drie maanden naar andere delen van de wereld. Vanaf 11 maart 2020 is er             officieel sprake van een wereldwijde pandemie.
                 Wij weten in Nederland niet precies hoeveel mensen het Coronavirus hebben gehad en waar het Coronavirus zich op dit moment het meest voordoet. Dit schept veel verwarring en onwetendheid, en ontstaan er gevaarlijke situaties waarbij er grote kans is om besmetting voort te zetten.
                 Om de veiligheid van de Nederlanders te waarborgen zoekt de Nederlandse overheid nu naar een applicatie of website om bij te houden wie deze ziekte al wel heeft gehad en wie niet.<br><br>
 
@@ -29,19 +33,19 @@
 
 
         <div class="w3-twothird">
-            <h1>Aantal coronagevallen in uw regio</h1>
-            <h5 class="w3-padding-32">Vul hier uw provincie, gemeente of stad in en kom te weten hoeveel coronagevallen er bij u in de omgeving zijn.</h5>
+            <h1>Aantal corona besmettingen in uw regio</h1>
+            <h5 class="w3-padding-32">Vul hier uw provincie, gemeente of stad in en kom te weten hoeveel besmettingen er bij u in de omgeving zijn.</h5>
 
 
             <form action="Aantalbesmetting.php" method="post">
-                <input type="text" name="plaats" required><br>plaats
+                <input type="text" name="plaats" required>Plaats<br>
 
                     <div id="radiobutton">
-                        <input type="radio" name="keuze" value="3"> provincie
-                        <input type="radio" name="keuze" value="2"> gemeente
-                        <input type="radio" name="keuze" value="1"> stad <br>
-                        <input type="number" name="leeftijd"  > leeftijd waarin je zoekt <br>
-                        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> zoek</button>
+                        <input type="radio" name="keuze" value="3">Provincie
+                        <input type="radio" name="keuze" value="2">Gemeente
+                        <input type="radio" name="keuze" value="1">Stad <br>
+                        <input type="number" name="leeftijd"  >Leeftijd waarin je zoekt <br>
+                        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Zoek</button>
                     </div>
             </form>
         </div>
