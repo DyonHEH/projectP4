@@ -73,12 +73,12 @@ if($p == 1)
 
                     <?php if($aantal == 1){ ?> 
                         <h4 class="w3-padding-32">er is <?php echo $aantal ?> besmetting in de
-                        plaats <?php echo $plaats 
-                        }?>
+                        plaats <?php echo $plaats; 
+                        } ?>
 
                     <?php if($aantal >= 2){ ?> 
                         <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                        plaats <?php echo $plaats 
+                        plaats <?php echo $plaats; 
                         }?>
 
 
@@ -169,12 +169,12 @@ if ($p ==2) {
 
                 <?php if($aantal == 1){ ?> 
                         <h4 class="w3-padding-32">er is <?php echo $aantal ?> besmetting in de
-                        plaats <?php echo $plaats 
+                        plaats <?php echo $plaats; 
                         }?>
 
                 <?php if($aantal >= 2){ ?> 
                         <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                        plaats <?php echo $plaats
+                        plaats <?php echo $plaats;
                         } ?>
 
 
@@ -266,12 +266,12 @@ if ($p ==2) {
 
                     <?php if($aantal == 1){ ?> 
                         <h4 class="w3-padding-32">er is <?php echo $aantal ?> besmetting in de
-                        plaats <?php echo $plaats 
+                        plaats <?php echo $plaats; 
                         }?>
 
                 <?php if($aantal >= 2){ ?> 
                         <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
-                        plaats <?php echo $plaats
+                        plaats <?php echo $plaats;
                         } ?>
 
 
