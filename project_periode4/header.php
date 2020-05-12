@@ -26,11 +26,13 @@
         <a href="homepage.php" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">vragenlijst</a>
         <a href="gamepage.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">games</a>
+        <img src="images/default.png" height="60" width="103" style="float:right">
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-padding-large">vragenlijst</a>
         <a href="gamepage.php" class="w3-bar-item w3-button w3-padding-large">games</a>
+        <img src="images/default.png" height="60" width="103">
     </div>
 </div>
