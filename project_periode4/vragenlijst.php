@@ -15,10 +15,10 @@ require "header.php";
                 Heb je rillingen?                           <input type="checkbox" value="1" name="rillingen"><br>
                 Heb je dat smaak of geur wegvalt?           <input type="checkbox" value="1" name="smaakGeur"><br>
                 Heb je moeite met ademen?                   <input type="checkbox" value="2" name="moeiteAdemen"><br>
-                Heb je constante pijn op je borst?          <input type="checkbox" value="2" name="borstpijn"><br>
+                Heb je konstante pijn op je borst?          <input type="checkbox" value="2" name="borstpijn"><br>
                 Heb je blauwachtige lippen of gezicht?      <input type="checkbox" value="2" name="lippen"><br>
                 <br>
-                Heb je een andere Ziekte                    <input type="checkbox" value="true" name="andereZiekte"><br>
+                Heb je een andere ziekte                    <input type="checkbox" value="true" name="andereZiekte"><br>
                 Woonplaats                                  <input type="text" name="plaats" required><br>
                 Gemeente                                    <input type="text" name="gemeente" required><br>
                 Provincie                                   <input type="text" name="provincie" required><br>
@@ -26,6 +26,7 @@ require "header.php";
             <input type="submit">
         </form>
 </div></div></div>
+
 
 
 <?php
