@@ -1,13 +1,14 @@
 <?php
 require 'header.php';
 ?>
+
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
     <div class="w3-content">
-
         <div class="w3-twothird">
 
             <form action="antwoordenVragen.php" class="w3-row-padding w3-light-grey w3-padding-64 w3-container" method="post">
-                    Moet je vaak hoesten?                       <input type="checkbox" value="1" name="hoesten"><br>
+                    <input type="checkbox" id="hoesten1" value="1" name="hoesten"> 
+                    <label for="hoesten"> Moet je vaak hoesten? </label>  <br>
                     Heb je koorts?                              <input type="checkbox" value="1" name="koorts"><br>
                     Heb je spierpijn?                           <input type="checkbox" value="1" name="spier"><br>
                     Heb je hoofdpijn?                           <input type="checkbox" value="1" name="hoofdpijn"><br>
