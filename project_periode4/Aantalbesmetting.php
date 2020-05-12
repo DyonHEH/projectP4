@@ -113,7 +113,7 @@ if ($p ==2) {
                 <div class="w3-twothird">
 
 
-                    <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                    <h4 class="w3-padding-32">Er zijn <?php echo $aantal;?> aantal besmettingen in de
                         gemeente <?php echo $plaats;?>
                         waarbij de leeftijd <?php echo $leeftijd;?> is.</h4>
 
@@ -149,7 +149,7 @@ if ($p ==2) {
                 <div class="w3-twothird">
 
 
-                    <h4 class="w3-padding-32">er is <?php echo $aantal;?> besmetting in de
+                    <h4 class="w3-padding-32">Er zijn <?php echo $aantal;?> besmetting in de
                         gemeente <?php echo $plaats;?></h4>
 
 
@@ -194,7 +194,7 @@ if ($p ==2) {
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                        <h4 class="w3-padding-32">Er zijn <?php echo $aantal;?> aantal besmettingen in de
                             provincie <?php echo $plaats;?>
                             waarbij de leeftijd <?php echo $leeftijd;?> is.</h4>
 
@@ -233,7 +233,7 @@ if ($p ==2) {
                     <div class="w3-twothird">
 
 
-                        <h4 class="w3-padding-32">er zijn <?php echo $aantal;?> aantal besmettingen in de
+                        <h4 class="w3-padding-32">Er zijn <?php echo $aantal;?> aantal besmettingen in de
                             provincie <?php echo $plaats;?></h4>
 
 

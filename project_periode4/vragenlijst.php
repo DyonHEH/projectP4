@@ -18,7 +18,7 @@ require "header.php";
                 Heb je konstante pijn op je borst?          <input type="checkbox" value="2" name="borstpijn"><br>
                 Heb je blauwachtige lippen of gezicht?      <input type="checkbox" value="2" name="lippen"><br>
                 <br>
-                Heb je een andere Ziekte                    <input type="checkbox" value="true" name="andereZiekte"><br>
+                Heb je een andere ziekte                    <input type="checkbox" value="true" name="andereZiekte"><br>
                 Woonplaats                                  <input type="text" name="plaats" required><br>
                 Gemeente                                    <input type="text" name="gemeente" required><br>
                 Provincie                                   <input type="text" name="provincie" required><br>
