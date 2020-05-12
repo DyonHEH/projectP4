@@ -27,8 +27,8 @@ if($p == 1)
                 <div class="w3-twothird">
 
 
-                <?php if($aantal == 1){ ?> 
-                        <h4 class="w3-padding-32">er is <?php echo $aantal ?> besmetting in de
+
+                     <h4 class="w3-padding-32">er zijn <?php echo $aantal ?> aantal besmettingen in de
                         plaats <?php echo $plaats ?>
                         waarbij de leeftijd <?php echo $leeftijd ?> is.</h4> }
 
