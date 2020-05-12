@@ -50,7 +50,8 @@ if($p == 1)
             <h1 class="w3-margin w3-xlarge">Blijf binnen</h1>
         </div>
 
-    <?php}else
+    <?php
+    }else
         {
             $sql = "select  *  FROM gegevens WHERE (plaats  = '" . $plaats . "' AND  besmet='1' )  ";
             $result_sql = mysqli_query($conn, $sql);
