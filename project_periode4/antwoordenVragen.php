@@ -63,28 +63,40 @@ if(isset($_POST['lippen']) && $_POST['lippen'] == '2')
     $aantal++;
     $directgevaar++;
 }
+?>
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="w3-container w3-padding-64 w3-center ">
+        
+<?php
+    
 
 if($aantal == 0)
 {
-    echo "Je bent kern gezond.";
+    echo "<h2>Je bent kern gezond.</h2>" ;
 }
 
 if($aantal >= 1 && $aantal <= 4)
 {
-    echo "Er is een mogelijkheid dat je het hebt, maar het kan ook een griepje zijn.";
+    echo "<h2>Er is een mogelijkheid dat je het hebt, maar het kan ook een griepje zijn.</h2>";
 }
 
 if($aantal >= 5)
 {
-    echo "Bel een dokter, er is een kans dat je het coronavirus hebt.";
+    echo "<h2>Bel een dokter, er is een kans dat je het coronavirus hebt. </h2>" ;
     $besmet = true;
 }
 
 if($directgevaar >= 1)
 {
-    echo "Bel zo snel mogelijk een dokter er is een hele grote kans dat je het coronavirus hebt.";
+    echo "<h2> Bel zo snel mogelijk een dokter er is een hele grote kans dat je het coronavirus hebt.</h2>";
     $besmet = true;
 }
+?>
+        </div>
+    </div>
+</div>
+<?php
 
 $plaats = $_POST['plaats'];
 $gemeente = $_POST['gemeente'];
@@ -95,3 +107,4 @@ $sql = "INSERT INTO gegevens (plaats, gemeente, provincie, leeftijd, andereZiekt
 $conn->query($sql);
 
 require "footer.php";
+
