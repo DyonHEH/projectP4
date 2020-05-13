@@ -44,7 +44,7 @@
                 <TEXTAREA NAME="bericht" ROWS="8" COLS="40" required></TEXTAREA>
             <BR>
 
-                <INPUT TYPE="submit" VALUE="Verzenden" NAME="verzendbericht">
+                <INPUT TYPE="submit" VALUE="Verzenden" NAME="verzendbericht" class="w3-button w3-black w3-padding-large w3-large w3-margin-to">
 
     </form>
 
