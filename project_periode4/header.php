@@ -23,28 +23,23 @@
 <div class="w3-top">
     <div class="w3-bar w3-red w3-card w3-left-align w3-large">
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-<<<<<<< HEAD
         <a href="homepage.php" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Vragenlijst</a>
         <a href="gamepage.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Games</a>
-=======
         <a href="homepage.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">vragenlijst</a>
         <a href="gamepage.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">games</a>
         <a href="forum.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">forum</a>
         <img src="images/default.png" height="60" width="103" style="float:right">
->>>>>>> b14098ef0d496b084be2ac1feeeb5520af7c7c17
+
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-<<<<<<< HEAD
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-padding-large">Vragenlijst</a>
         <a href="gamepage.php" class="w3-bar-item w3-button w3-padding-large">Games</a>
-=======
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-padding-large">vragenlijst</a>
         <a href="gamepage.php" class="w3-bar-item w3-button w3-padding-large">games</a>
         <img src="images/default.png" height="60" width="103">
->>>>>>> b14098ef0d496b084be2ac1feeeb5520af7c7c17
     </div>
 </div>
