@@ -34,6 +34,7 @@
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="homepage.php" class="w3-bar-item w3-button w3-padding-large">Home</a>
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-padding-large">Vragenlijst</a>
         <a href="https://www.greenfoot.org/scenarios/25826" target="_blank" class="w3-bar-item w3-button w3-padding-large">Games</a>
         <a href="forum.php" class="w3-bar-item w3-button w3-padding-large">Forum</a>

@@ -6,7 +6,7 @@ require 'header.php';
     <div class="w3-content">
         <div class="w3-twothird">
             <form action="antwoordenVragen.php" class="w3-row-padding w3-light-grey w3-padding-64 w3-container" method="post">
-
+                
                 <label class="container">Moet je regelmatig hoesten?
                     <input type="checkbox" value="1" name="hoesten">
                     <span class="checkmark"></span>
@@ -76,7 +76,7 @@ require 'header.php';
                 <label class="container-persona">Leeftijd</label>   
                     <input type="number" class="w3-input" name="leeftijd" required><br>
 
-                <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" id="vragenlijst" >Verzenden</button>
+                <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" id="vragenlijst">Verzenden</button>
             </form>
             
         </div>
