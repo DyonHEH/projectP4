@@ -27,7 +27,7 @@
         <a href="vragenlijst.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Vragenlijst</a>
         <a href="https://www.greenfoot.org/scenarios/25826" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Games</a>
         <a href="forum.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Forum</a>
-        <img src="images/default.png" height="60" width="103" style="float:right">
+        <img src="images/default.png" height="50.4" width="103" style="float:right">
 
     </div>
 
