@@ -72,9 +72,24 @@ input[type="radio"] {
   transform: rotate(45deg);
 }
 
-#vragenlijst{
-  background-color: #f44336;
+.container-persona {
+  display: block;
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
+hr{
+  border: 0;
+  border-top: 3px solid #c6c5c5;
+  margin: 20px 0; 
+}
 
- 
+.icons{
+  margin-right: 10px;
+}

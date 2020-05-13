@@ -61,11 +61,20 @@ require 'header.php';
                     <input type="checkbox" value="true" name="andereZiekte">
                     <span class="checkmark"></span>
                 </label>
-                    
-                Woonplaats <input type="text" name="plaats" required><br>
-                Gemeente   <input type="text" name="gemeente" required><br>
-                Provincie  <input type="text" name="provincie" required><br>
-                Leeftijd   <input type="number" name="leeftijd" required><br>
+
+                <hr>
+                                
+                <label class="container-persona">Woonplaats</label> 
+                    <input type="text" class="w3-input" name="plaats" required><br>
+
+                <label class="container-persona">Gemeente</label>   
+                    <input type="text" class="w3-input" name="gemeente" required><br>
+                
+                <label class="container-persona">Provincie</label>  
+                    <input type="text" class="w3-input" name="provincie" required><br>
+                
+                <label class="container-persona">Leeftijd</label>   
+                    <input type="number" class="w3-input" name="leeftijd" required><br>
 
                 <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" id="vragenlijst" >Verzenden</button>
             </form>
