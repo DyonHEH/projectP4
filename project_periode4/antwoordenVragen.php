@@ -81,7 +81,7 @@ if($aantal >= 1 && $aantal <= 4)
     echo "<h2>Er is een mogelijkheid dat je het hebt, maar het kan ook een griepje zijn.</h2>";
 }
 
-if($aantal >= 5)
+if($aantal >= 5 && $directgevaar == 0)
 {
     echo "<h2>Bel een dokter, er is een kans dat je het coronavirus hebt. </h2>" ;
     $besmet = true;
