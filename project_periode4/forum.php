@@ -21,9 +21,9 @@
     <div class="form">
 
     <form METHOD="post" ACTION="mailto:dyonmaister@gmail.com">
-        Naam: <BR> <INPUT TYPE="text" NAME="jouwnaam" VALUE="uw naam" size="30" required class="w3-input"> <BR>
+        Naam: <BR> <INPUT TYPE="text" NAME="jouwnaam" VALUE="uw naam" size="30" required> <BR>
 
-        E-mail adres: <BR /> <INPUT TYPE="text" NAME="email" VALUE="@emaildomein.nl" SIZE="30" required class="w3-input"> <BR>
+        E-mail adres: <BR /> <INPUT TYPE="text" NAME="email" VALUE="@emaildomein.nl" SIZE="30" required> <BR>
 
         Reden contact:<BR>
             <SELECT NAME="reden">
