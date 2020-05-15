@@ -22,7 +22,7 @@
         </div>
 
         <div class="w3-third w3-center">
-            <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+            <img src="images/default.png" height="400" width= "600" style="margin-top: 120px">
         </div>
     </div>
 </div>
